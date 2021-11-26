@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    line-height: 1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+.header {
+    padding-top: 23px;
+    margin-bottom: 35px;
+}
+.container {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0  auto;
+}
+.header nav {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header nav::after {
+    content:'';
+    width: 100%;
+    height: 1px;
+    display: flex;
+    background-color: #828282;
+    margin-top: 30px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+} 
+.header li a {
+    font-size: 18px;
+    color: #828282;
+}
+.header li:not(:last-child) {
+    margin-right: 40px;
+}
+.header li .active {
+    color: black;
+}
+.hero {
+    padding-bottom: 100px;
+}
+.hero h2 {
+    font-size: 47px;
+    font-weight: 700;
+    color: #070707;
+    margin-bottom: 45px;
+}
+.hero img {
+    max-width: 920px;
+}
+.about-me {
+    padding: 100px 0;
+    color: #070707;
+    background: #F6F6F6
+}
+.about-me .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me h2 {
+    font-size: 34px;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-me p {
+    max-width: 480px;
+    max-height: 246px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+}
+.about-me p:not(:last-child) {
+    margin-bottom: 35px;
+}
+.skills {
+    padding-top: 100px;
+    padding-bottom: 85px;
+    background: #fff;
+}
+.skills h2 {
+    font-size: 34px;
+    font-weight:700;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #070707;
+}
+.skills p {
+    font-size: 18px;
+    font-weight:400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skills ul {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 78px;
+}
+.skills img {
+    width: 167px;
+    height: 224px;
+}
+.portfolio {
+    padding-top: 118px;
+    background: #F6F6F6;
+}
+.portfolio h2 {
+    padding-bottom: 68px;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    font-weight:bold;
+    text-align: center;
+    font-style: normal;
+}
+.portfolio ul {
+    list-style: none;
+}
+.portfolio li {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #070707;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 124px;
+}
+.portfolio li a {
+    color: #070707;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.contacts {
+
+    background: #fff;  
+}
+.contacts .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contacts h2  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    padding-bottom: 21px;
+    padding-top: 100px;
+}
+.contacts p {
+    color: #070707;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 275px;
+    height:43px;
+    margin-bottom: 78px;
+    align-items: center;
+    text-align: center;
+}
+.contacts button {
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #070707;
+    border: 0;
+    border-radius: 20px;
+    justify-content: center;
+    height: 42px;
+    width: 180px;
+    margin-bottom: 31px;
+    font-weight: 700;
+}
+.contacts ul {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 44px;
+    align-items: flex-start;
+}
+.contacts li:not(:last-child) {
+    padding-right: 60px;
+    padding-bottom: 41px;
+}
+.contacts p:last-child {
+    color: #828282;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 243px;
+    height:63px;
+    align-items: center;
+    text-align: center;
+}
